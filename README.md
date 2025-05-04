@@ -36,3 +36,10 @@ In this fast-paced game, you play as a lumberjack who must chop down a tree whil
 ```bash
 git clone https://github.com/your-username/timberman-sfml.git
 cd timberman-sfml
+```
+
+### 2.Run Via Terminal 
+```bash
+g++ -o timberman main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+./timberman
+```
